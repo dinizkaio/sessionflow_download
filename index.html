@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Session Flow</title>
+</head>
+<body>
+  <script>
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+      window.location.href = "https://apps.apple.com/app/id6761916040";
+    } else {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.sessionflow.sessions";
+    }
+  </script>
+  <noscript>
+    <p>Baixe o Session Flow:</p>
+    <a href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions">Android</a> |
+    <a href="https://apps.apple.com/app/id6761916040">iOS</a>
+  </noscript>
+</body>
+</html>
