@@ -8,7 +8,7 @@
   <script>
     const ua = navigator.userAgent || navigator.vendor || window.opera;
 
-    if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+    if (/iPad|iPhone|iPod/.test(ua) || /Mac/.test(ua)) {
       window.location.href = "https://apps.apple.com/app/id6761916040";
     } else {
       window.location.href = "https://play.google.com/store/apps/details?id=com.sessionflow.sessions";
