@@ -1,0 +1,309 @@
+/* getsessionflow.app — estilo único do site (páginas legais, página
+   inicial e 404). Nada vem de fora: sem fontes, scripts ou rastreadores
+   de terceiros. */
+
+:root {
+  --fundo: #f6f7fb;
+  --superficie: #ffffff;
+  --texto: #141827;
+  --texto-suave: #4a5163;
+  --borda: #e3e6ef;
+  --destaque: #3847c9;
+  --destaque-forte: #2b37a6;
+  --destaque-texto: #ffffff;
+  --codigo-fundo: #eef0f7;
+  --aviso-fundo: #eef1ff;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fundo: #0e1120;
+    --superficie: #161a2c;
+    --texto: #e7e9f2;
+    --texto-suave: #a3a9bd;
+    --borda: #2a3048;
+    --destaque: #97a4ff;
+    --destaque-forte: #b8c1ff;
+    --destaque-texto: #0e1120;
+    --codigo-fundo: #20253a;
+    --aviso-fundo: #1d2340;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --fundo: #0e1120;
+  --superficie: #161a2c;
+  --texto: #e7e9f2;
+  --texto-suave: #a3a9bd;
+  --borda: #2a3048;
+  --destaque: #97a4ff;
+  --destaque-forte: #b8c1ff;
+  --destaque-texto: #0e1120;
+  --codigo-fundo: #20253a;
+  --aviso-fundo: #1d2340;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--texto);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+}
+
+a {
+  color: var(--destaque);
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--destaque-forte);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--destaque);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Topo ─────────────────────────────────────────────────────────── */
+
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--texto);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.marca img {
+  border-radius: 22%;
+  background: #ffffff;
+  box-shadow: 0 0 0 1px var(--borda);
+}
+
+.linguas {
+  font-size: 0.9rem;
+  color: var(--texto-suave);
+}
+
+.linguas a[aria-current="page"] {
+  color: var(--texto);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ── Documento legal ──────────────────────────────────────────────── */
+
+.documento {
+  max-width: 48rem;
+  margin: 0 auto 2rem;
+  padding: 1.5rem 1rem 2rem;
+  background: var(--superficie);
+  border: 1px solid var(--borda);
+  border-radius: 16px;
+}
+
+@media (min-width: 52rem) {
+  .documento {
+    padding: 2.5rem 3rem 3rem;
+  }
+}
+
+/* No celular, o texto ocupa a largura toda. */
+@media (max-width: 51.99rem) {
+  .documento {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+  }
+}
+
+.documento h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.75rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.versao {
+  margin: 0 0 1.5rem;
+  color: var(--texto-suave);
+  font-size: 0.95rem;
+}
+
+.aviso-traducao {
+  margin: -0.75rem 0 1.5rem;
+  padding: 0.75rem 1rem;
+  background: var(--aviso-fundo);
+  border-radius: 10px;
+  font-size: 0.92rem;
+}
+
+.documento h2 {
+  margin: 2.25rem 0 0.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--borda);
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.documento h3 {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.documento p,
+.documento ul,
+.documento ol {
+  margin: 0 0 1rem;
+}
+
+.documento ul,
+.documento ol {
+  padding-left: 1.4rem;
+}
+
+.documento li {
+  margin: 0.35rem 0;
+}
+
+.documento li > ul,
+.documento li > ol {
+  margin: 0.35rem 0 0;
+}
+
+.documento strong {
+  font-weight: 650;
+}
+
+.documento code {
+  padding: 0.1em 0.35em;
+  background: var(--codigo-fundo);
+  border-radius: 5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  overflow-wrap: anywhere;
+}
+
+/* ── Rodapé ───────────────────────────────────────────────────────── */
+
+.rodape {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1rem 2.5rem;
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.rodape p {
+  margin: 0.25rem 0;
+}
+
+/* ── Página inicial (computador) ──────────────────────────────────── */
+
+.capa {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 4rem 1rem 2.5rem;
+  text-align: center;
+}
+
+.capa .icone {
+  width: 96px;
+  height: 96px;
+  border-radius: 22%;
+  background: #ffffff;
+  box-shadow: 0 0 0 1px var(--borda), 0 8px 24px rgba(20, 24, 39, 0.12);
+}
+
+.capa h1 {
+  margin: 1.25rem 0 0.5rem;
+  font-size: 2.25rem;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.chamada {
+  margin: 0 auto 2rem;
+  max-width: 26rem;
+  color: var(--texto-suave);
+  font-size: 1.15rem;
+}
+
+.lojas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.botao {
+  display: inline-block;
+  min-width: 12.5rem;
+  padding: 0.8rem 1.25rem;
+  background: var(--destaque);
+  color: var(--destaque-texto);
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.botao:hover {
+  background: var(--destaque-forte);
+  color: var(--destaque-texto);
+}
+
+.web {
+  margin: 1.75rem 0 0;
+  color: var(--texto-suave);
+  font-size: 0.95rem;
+}
+
+.web a {
+  font-weight: 600;
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+  .topo .linguas,
+  .rodape {
+    display: none;
+  }
+  .documento {
+    border: 0;
+    padding: 0;
+  }
+}
