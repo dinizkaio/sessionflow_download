@@ -1,23 +1,87 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Session Flow</title>
+  <meta name="description" content="Agenda e pagamentos para quem atende por sessões.">
+  <link rel="icon" href="/assets/icone-64.png">
+  <link rel="apple-touch-icon" href="/assets/icone-180.png">
+  <link rel="stylesheet" href="/assets/site.css">
+  <script>
+    // No celular, direto para a loja: o botão "Avaliar" do app abre este
+    // endereço, e todas as versões instaladas dependem disso. O iPad se
+    // apresenta como Mac; o toque na tela o diferencia de um computador.
+    (function () {
+      var ua = navigator.userAgent || '';
+      var ios = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+      if (ios) {
+        location.replace('https://apps.apple.com/app/id6761916040');
+      } else if (/Android/i.test(ua)) {
+        location.replace('https://play.google.com/store/apps/details?id=com.sessionflow.sessions');
+      }
+    })();
+  </script>
 </head>
 <body>
+  <main class="capa">
+    <img class="icone" src="/assets/icone-180.png" alt="" width="96" height="96">
+    <h1>Session Flow</h1>
+    <p class="chamada" data-t="chamada">Agenda e pagamentos para quem atende por sessões.</p>
+    <div class="lojas">
+      <a class="botao" href="https://apps.apple.com/app/id6761916040" data-t="appStore">Baixar na App Store</a>
+      <a class="botao" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions" data-t="googlePlay">Baixar no Google Play</a>
+    </div>
+    <p class="web"><a href="https://app.getsessionflow.app" data-t="web">Usar no navegador</a> — <span data-t="webNota">para assinantes Premium com a nuvem ligada</span></p>
+  </main>
+  <footer class="rodape">
+    <p><a href="/privacidade/" data-t="privacidade" data-l="privacidade">Política de Privacidade</a> · <a href="/termos/" data-t="termos" data-l="termos">Termos de Uso da Nuvem</a></p>
+    <p><span data-t="contato">Contato</span>: <a href="mailto:mundi.labs.flow@gmail.com">mundi.labs.flow@gmail.com</a></p>
+  </footer>
   <script>
-    const ua = navigator.userAgent || navigator.vendor || window.opera;
-
-    if (/iPad|iPhone|iPod/.test(ua) || /Mac/.test(ua)) {
-      window.location.href = "https://apps.apple.com/app/id6761916040";
-    } else {
-      window.location.href = "https://play.google.com/store/apps/details?id=com.sessionflow.sessions";
-    }
+    // Português é o padrão da página; inglês e espanhol pela língua do
+    // navegador (outras línguas ficam em inglês).
+    (function () {
+      var textos = {
+        en: {
+          chamada: 'Scheduling and payments for professionals who work in sessions.',
+          appStore: 'Download on the App Store',
+          googlePlay: 'Get it on Google Play',
+          web: 'Use in the browser',
+          webNota: 'for Premium subscribers with the cloud on',
+          privacidade: 'Privacy Policy',
+          termos: 'Cloud Terms of Use',
+          contato: 'Contact'
+        },
+        es: {
+          chamada: 'Agenda y pagos para quienes atienden por sesiones.',
+          appStore: 'Descargar en la App Store',
+          googlePlay: 'Disponible en Google Play',
+          web: 'Usar en el navegador',
+          webNota: 'para suscriptores Premium con la nube activada',
+          privacidade: 'Política de Privacidad',
+          termos: 'Términos de Uso de la Nube',
+          contato: 'Contacto'
+        }
+      };
+      var links = {
+        en: { privacidade: '/en/privacy/', termos: '/en/terms/' },
+        es: { privacidade: '/es/privacidad/', termos: '/es/terminos/' }
+      };
+      var lingua = ((navigator.languages && navigator.languages[0]) || navigator.language || 'pt')
+        .toLowerCase().slice(0, 2);
+      if (lingua === 'pt') return;
+      if (!textos[lingua]) lingua = 'en';
+      document.documentElement.lang = lingua;
+      var t = textos[lingua];
+      document.querySelectorAll('[data-t]').forEach(function (el) {
+        el.textContent = t[el.getAttribute('data-t')];
+      });
+      document.querySelectorAll('[data-l]').forEach(function (el) {
+        el.setAttribute('href', links[lingua][el.getAttribute('data-l')]);
+      });
+      document.querySelector('meta[name="description"]').setAttribute('content', t.chamada);
+    })();
   </script>
-  <noscript>
-    <p>Baixe o Session Flow:</p>
-    <a href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions">Android</a> |
-    <a href="https://apps.apple.com/app/id6761916040">iOS</a>
-  </noscript>
 </body>
 </html>
