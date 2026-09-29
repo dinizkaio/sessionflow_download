@@ -20,7 +20,7 @@
   </header>
   <main class="documento">
     <h1>Política de Privacidade — Session Flow</h1>
-    <p class="versao">Versão 3 · 27 de setembro de 2026</p>
+    <p class="versao">Versão 4 · 29 de setembro de 2026</p>
 <h2 id="1-quem-somos">1. Quem somos</h2>
 <p>O Session Flow é um aplicativo de agenda e controle de pagamentos para
 profissionais que atendem por sessões. Ele é desenvolvido e mantido por
@@ -106,6 +106,12 @@ Nuvem e privacidade. Sem esse aceite, a nuvem não é ligada.</p>
       última alteração e um identificador aleatório do aparelho que a fez.</li>
 <li><strong>Controle técnico:</strong><ul>
 <li>contadores de uso por conta, para evitar abuso;</li>
+<li>verificação do app: a cada uso da nuvem, o app obtém um atestado de que
+      é o Session Flow original, num aparelho ou navegador de verdade. No
+      Android, quem atesta é a Google Play; no iPhone e no iPad, a Apple; no
+      navegador, o reCAPTCHA Enterprise, do Google (seção 4.8). Nós recebemos
+      só o resultado, um atestado válido por cerca de uma hora, que não
+      identifica você nem o aparelho;</li>
 <li>registros de funcionamento dos servidores (logs), que podem incluir o
       identificador da conta e o endereço IP e ficam pelo prazo padrão do
       Google Cloud (em geral, 30 dias).</li>
@@ -116,7 +122,8 @@ Nuvem e privacidade. Sem esse aceite, a nuvem não é ligada.</p>
 <ul>
 <li>Sincronizar os seus aparelhos e o navegador.</li>
 <li>Confirmar que o seu plano dá direito à nuvem.</li>
-<li>Proteger o serviço contra abuso e acesso indevido.</li>
+<li>Proteger o serviço contra abuso e acesso indevido, inclusive confirmando
+    que o acesso vem do app original.</li>
 <li>Atender os seus pedidos e cumprir obrigações legais.</li>
 </ul>
 <h3 id="44-bases-legais-art-7o-da-lgpd">4.4 Bases legais (art. 7º da LGPD)</h3>
@@ -127,7 +134,7 @@ Nuvem e privacidade. Sem esse aceite, a nuvem não é ligada.</p>
     endereço IP), como pede o art. 15 do Marco Civil da Internet (Lei nº
     12.965/2014). O registro do aceite também se apoia nessa base.</li>
 <li><strong>Legítimo interesse:</strong> segurança e prevenção de abuso, como os limites
-    de uso.</li>
+    de uso e a verificação do app.</li>
 <li><strong>Exercício regular de direitos:</strong> depois que a conta é apagada, o
     registro do aceite fica guardado à parte, só para a defesa em caso de
     disputa sobre o aceite (seção 4.7).</li>
@@ -141,23 +148,30 @@ Nuvem e privacidade. Sem esse aceite, a nuvem não é ligada.</p>
     região, e os dados de conta (identificador e e-mail) podem ser
     guardados <strong>fora do Brasil, inclusive nos Estados Unidos</strong>;</li>
 <li>hospedagem do app web (Firebase Hosting). O app web não guarda os seus
-    dados no servidor de hospedagem.</li>
+    dados no servidor de hospedagem;</li>
+<li>verificação do app: Play Integrity (Google Play), no Android, e
+    reCAPTCHA Enterprise, no navegador.</li>
 </ul>
 </li>
-<li><strong>Apple:</strong> login com a Apple. A Apple pode oferecer um e-mail de
-    retransmissão no lugar do seu e-mail real.</li>
+<li><strong>Apple:</strong> login com a Apple e verificação do app no iPhone e no iPad
+    (DeviceCheck). A Apple pode oferecer um e-mail de retransmissão no lugar
+    do seu e-mail real.</li>
 <li><strong>Google Play e App Store:</strong> verificação das assinaturas.</li>
 </ul>
-<p><strong>Transferência internacional (art. 33).</strong> Ocorre apenas no login, pelos
-dados de conta. A transferência se apoia nas Cláusulas-Padrão Contratuais
-oferecidas por esses fornecedores, em conformidade com as exigências da
-Autoridade Nacional de Proteção de Dados (ANPD).</p>
+<p><strong>Transferência internacional (art. 33).</strong> Ocorre no login, pelos dados de
+conta, e na verificação do app, pelos dados técnicos do aparelho ou do
+navegador que o Google e a Apple analisam. A transferência se apoia nas
+Cláusulas-Padrão Contratuais oferecidas por esses fornecedores, em
+conformidade com as exigências da Autoridade Nacional de Proteção de Dados
+(ANPD).</p>
 <h3 id="46-seguranca">4.6 Segurança</h3>
 <ul>
 <li>Criptografia em trânsito (TLS) e em repouso, esta feita pelo Google.</li>
 <li>Regras de acesso que só liberam os dados da própria conta, e login só com
     Google ou Apple.</li>
 <li>Limites de uso e verificação das assinaturas no servidor.</li>
+<li>Verificação de que o acesso vem do app original, num aparelho ou
+    navegador de verdade.</li>
 <li><strong>Não há criptografia de ponta a ponta.</strong> Tecnicamente, quem administra o
     projeto no Google Cloud consegue ler os dados. Nós nos comprometemos a não
     acessá-los, a não ser para atender um pedido seu ou uma obrigação legal.</li>
@@ -191,7 +205,11 @@ Autoridade Nacional de Proteção de Dados (ANPD).</p>
 <p>O app web usa a mesma conta da nuvem. Enquanto você estiver conectado, os
 dados ficam guardados no próprio navegador, para o app funcionar. Ao sair da
 conta, eles são apagados do navegador. O app web não usa cookies de
-publicidade nem de rastreamento.</p>
+publicidade nem de rastreamento. Para proteger a nuvem contra acessos
+automatizados, ele usa o reCAPTCHA Enterprise, do Google, que analisa
+informações do navegador e do aparelho e a interação com a página, e grava
+um cookie de segurança. O reCAPTCHA segue a Política de Privacidade e os
+Termos de Serviço do Google.</p>
 <h2 id="5-dados-dos-seus-clientes">5. Dados dos seus clientes</h2>
 <ul>
 <li><strong>Você decide o que registrar sobre os seus clientes.</strong> Por isso, você é o
@@ -239,9 +257,9 @@ Unido, também valem o Regulamento Geral de Proteção de Dados (GDPR) e o UK
 GDPR. Nesse caso:</p>
 <ul>
 <li><strong>Bases legais.</strong> A nuvem se apoia na execução do contrato (art. 6(1)(b)).
-    Os registros de acesso e o registro do aceite se apoiam no nosso interesse
-    legítimo em proteger o serviço contra abuso e em nos defender em caso de
-    disputa (art. 6(1)(f)).</li>
+    Os registros de acesso, a verificação do app e o registro do aceite se
+    apoiam no nosso interesse legítimo em proteger o serviço contra abuso e em
+    nos defender em caso de disputa (art. 6(1)(f)).</li>
 <li><strong>Seus direitos.</strong> Além dos da seção 6, você pode pedir a limitação do
     tratamento (art. 18) e se opor ao que se apoia em interesse legítimo
     (art. 21). Podemos manter o que for necessário para a defesa em processo.</li>
@@ -249,9 +267,10 @@ GDPR. Nesse caso:</p>
     país onde mora ou trabalha, ou onde a infração ocorreu.</li>
 <li><strong>Transferências.</strong> A Comissão Europeia reconhece que o Brasil protege os
     dados pessoais de forma adequada (Decisão de Execução (UE) 2026/179). Os
-    dados de conta que podem ficar nos Estados Unidos seguem o EU-U.S. Data
+    dados de conta que podem ficar nos Estados Unidos, e os dados técnicos da
+    verificação do app tratados pelo Google e pela Apple, seguem o EU-U.S. Data
     Privacy Framework e as cláusulas-padrão contratuais da Comissão Europeia
-    oferecidas pelo Google.</li>
+    oferecidas por esses fornecedores.</li>
 <li><strong>Sem decisões automatizadas.</strong> Não tomamos decisões só por meios
     automatizados nem fazemos perfilamento.</li>
 <li><strong>Dados necessários.</strong> Para usar a nuvem, é preciso entrar com Google ou
@@ -265,6 +284,7 @@ GDPR. Nesse caso:</p>
 <li>Não compartilhamos dados para marketing.</li>
 <li>Não usamos publicidade nem ferramentas de análise de uso, de rastreamento
     ou de relatórios de falhas.</li>
+<li>A verificação do app (seção 4.2) serve só para a segurança da nuvem.</li>
 </ul>
 <h2 id="10-incidentes-de-seguranca">10. Incidentes de segurança</h2>
 <p>Se um incidente puder acarretar risco ou dano relevante, comunicaremos a
