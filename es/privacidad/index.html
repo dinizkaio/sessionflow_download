@@ -20,7 +20,7 @@
   </header>
   <main class="documento">
     <h1>Política de Privacidad — Session Flow</h1>
-    <p class="versao">Versión 3 · 27 de septiembre de 2026</p>
+    <p class="versao">Versión 4 · 29 de septiembre de 2026</p>
     <p class="aviso-traducao">Traducción al español. La versión en portugués es la oficial y prevalece en caso de divergencia.</p>
 <h2 id="1-quienes-somos">1. Quiénes somos</h2>
 <p>Session Flow es una app de agenda y control de pagos para profesionales que
@@ -114,6 +114,12 @@ nube no se activa.</p>
       lo hizo.</li>
 <li><strong>Control técnico:</strong><ul>
 <li>contadores de uso por cuenta, para evitar abusos;</li>
+<li>verificación de la app: cada vez que se usa la nube, la app obtiene una
+      certificación de que es el Session Flow original, en un dispositivo o
+      navegador real. En Android, quien certifica es Google Play; en iPhone y
+      iPad, Apple; en el navegador, reCAPTCHA Enterprise, de Google (sección
+      4.8). Solo recibimos el resultado, una certificación válida por cerca de
+      una hora, que no te identifica a ti ni al dispositivo;</li>
 <li>registros de funcionamiento de los servidores (logs), que pueden
       incluir el identificador de la cuenta y la dirección IP y se guardan
       durante el plazo predeterminado de Google Cloud (en general, 30 días).</li>
@@ -124,7 +130,8 @@ nube no se activa.</p>
 <ul>
 <li>Sincronizar tus dispositivos y el navegador.</li>
 <li>Confirmar que tu plan incluye la nube.</li>
-<li>Proteger el servicio contra abusos y accesos indebidos.</li>
+<li>Proteger el servicio contra abusos y accesos indebidos, incluso
+    confirmando que el acceso viene de la app original.</li>
 <li>Atender tus solicitudes y cumplir obligaciones legales.</li>
 </ul>
 <h3 id="44-bases-legales-art-7-de-la-lgpd">4.4 Bases legales (art. 7 de la LGPD)</h3>
@@ -136,7 +143,7 @@ nube no se activa.</p>
     Brasil (Ley n.º 12.965/2014). El registro de la aceptación también se
     apoya en esta base.</li>
 <li><strong>Interés legítimo:</strong> seguridad y prevención de abusos, como los límites
-    de uso.</li>
+    de uso y la verificación de la app.</li>
 <li><strong>Ejercicio regular de derechos:</strong> después de que se borra la cuenta, el
     registro de la aceptación se guarda aparte, solo para nuestra defensa en
     caso de disputa sobre la aceptación (sección 4.7).</li>
@@ -150,23 +157,30 @@ nube no se activa.</p>
     elegir la región, y los datos de la cuenta (identificador y correo)
     pueden guardarse <strong>fuera de Brasil, incluso en los Estados Unidos</strong>;</li>
 <li>alojamiento de la app web (Firebase Hosting). La app web no guarda tus
-    datos en el servidor de alojamiento.</li>
+    datos en el servidor de alojamiento;</li>
+<li>verificación de la app: Play Integrity (Google Play), en Android, y
+    reCAPTCHA Enterprise, en el navegador.</li>
 </ul>
 </li>
-<li><strong>Apple:</strong> inicio de sesión con Apple. Apple puede ofrecer un correo de
-    reenvío en lugar de tu correo real.</li>
+<li><strong>Apple:</strong> inicio de sesión con Apple y verificación de la app en iPhone y
+    iPad (DeviceCheck). Apple puede ofrecer un correo de reenvío en lugar de tu
+    correo real.</li>
 <li><strong>Google Play y App Store:</strong> verificación de las suscripciones.</li>
 </ul>
-<p><strong>Transferencia internacional (art. 33).</strong> Ocurre solo al iniciar sesión,
-con los datos de la cuenta. La transferencia se apoya en las Cláusulas
-Contractuales Estándar ofrecidas por esos proveedores, conforme a las
-exigencias de la Autoridad Nacional de Protección de Datos de Brasil (ANPD).</p>
+<p><strong>Transferencia internacional (art. 33).</strong> Ocurre al iniciar sesión, con los
+datos de la cuenta, y en la verificación de la app, con los datos técnicos
+del dispositivo o del navegador que Google y Apple analizan. La
+transferencia se apoya en las Cláusulas Contractuales Estándar ofrecidas por
+esos proveedores, conforme a las exigencias de la Autoridad Nacional de
+Protección de Datos de Brasil (ANPD).</p>
 <h3 id="46-seguridad">4.6 Seguridad</h3>
 <ul>
 <li>Cifrado en tránsito (TLS) y en reposo, este último a cargo de Google.</li>
 <li>Reglas de acceso que solo liberan los datos de la propia cuenta, e inicio
     de sesión solo con Google o Apple.</li>
 <li>Límites de uso y verificación de las suscripciones en el servidor.</li>
+<li>Verificación de que el acceso viene de la app original, en un
+    dispositivo o navegador real.</li>
 <li><strong>No hay cifrado de extremo a extremo.</strong> Técnicamente, quien administra el
     proyecto en Google Cloud puede leer los datos. Nos comprometemos a no
     acceder a ellos, salvo para atender una solicitud tuya o una obligación
@@ -203,7 +217,11 @@ exigencias de la Autoridad Nacional de Protección de Datos de Brasil (ANPD).</p
 <p>La app web usa la misma cuenta de la nube. Mientras tengas la sesión
 iniciada, los datos se guardan en el propio navegador para que la app
 funcione. Al cerrar la sesión, se borran del navegador. La app web no usa
-cookies de publicidad ni de rastreo.</p>
+cookies de publicidad ni de rastreo. Para proteger la nube contra accesos
+automatizados, usa reCAPTCHA Enterprise, de Google, que analiza información
+del navegador y del dispositivo y la interacción con la página, y guarda una
+cookie de seguridad. reCAPTCHA se rige por la Política de Privacidad y los
+Términos del Servicio de Google.</p>
 <h2 id="5-datos-de-tus-clientes">5. Datos de tus clientes</h2>
 <ul>
 <li><strong>Tú decides qué registrar sobre tus clientes.</strong> Por eso, eres el
@@ -251,9 +269,10 @@ también se aplican el Reglamento General de Protección de Datos (RGPD) y el
 RGPD del Reino Unido. En ese caso:</p>
 <ul>
 <li><strong>Bases legales.</strong> La nube se basa en la ejecución del contrato
-    (art. 6(1)(b)). Los registros de acceso y el registro de la aceptación se
-    basan en nuestro interés legítimo en proteger el servicio contra abusos y
-    en defendernos en caso de disputa (art. 6(1)(f)).</li>
+    (art. 6(1)(b)). Los registros de acceso, la verificación de la app y el
+    registro de la aceptación se basan en nuestro interés legítimo en proteger
+    el servicio contra abusos y en defendernos en caso de disputa
+    (art. 6(1)(f)).</li>
 <li><strong>Tus derechos.</strong> Además de los de la sección 6, puedes pedir la
     limitación del tratamiento (art. 18) y oponerte a lo que se basa en el
     interés legítimo (art. 21). Podemos conservar lo necesario para la defensa
@@ -263,9 +282,10 @@ RGPD del Reino Unido. En ese caso:</p>
     infracción.</li>
 <li><strong>Transferencias.</strong> La Comisión Europea reconoce que Brasil protege los
     datos personales de forma adecuada (Decisión de Ejecución (UE) 2026/179).
-    Los datos de la cuenta que pueden quedar en Estados Unidos siguen el Marco
-    de Privacidad de Datos UE-EE. UU. y las cláusulas contractuales tipo de la
-    Comisión Europea ofrecidas por Google.</li>
+    Los datos de la cuenta que pueden quedar en Estados Unidos, y los datos
+    técnicos de la verificación de la app tratados por Google y Apple, siguen
+    el Marco de Privacidad de Datos UE-EE. UU. y las cláusulas contractuales
+    tipo de la Comisión Europea ofrecidas por esos proveedores.</li>
 <li><strong>Sin decisiones automatizadas.</strong> No tomamos decisiones basadas únicamente
     en medios automatizados ni elaboramos perfiles.</li>
 <li><strong>Datos necesarios.</strong> Para usar la nube, debes iniciar sesión con Google o
@@ -279,6 +299,8 @@ RGPD del Reino Unido. En ese caso:</p>
 <li>No compartimos datos con fines de marketing.</li>
 <li>No usamos publicidad ni herramientas de análisis de uso, de rastreo o de
     informes de fallos.</li>
+<li>La verificación de la app (sección 4.2) sirve solo para la seguridad de la
+    nube.</li>
 </ul>
 <h2 id="10-incidentes-de-seguridad">10. Incidentes de seguridad</h2>
 <p>Si un incidente puede generar un riesgo o daño relevante, lo comunicaremos a
