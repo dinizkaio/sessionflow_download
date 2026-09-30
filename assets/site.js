@@ -9,6 +9,21 @@ raiz.classList.add('android');
 } else if (/iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1)) {
 raiz.classList.add('ios');
 }
+var consertar = function (img) {
+var falhou = img.currentSrc || img.src;
+if (img.getAttribute('data-falhou') === falhou) return; // o mesmo erro, avisado duas vezes
+img.setAttribute('data-falhou', falhou);
+var fontes = img.parentNode.querySelectorAll('source');
+if (fontes.length) {
+fontes.forEach(function (s) { s.parentNode.removeChild(s); });
+} else if (!/[?&]r=/.test(img.src)) {
+setTimeout(function () { img.src += (img.src.indexOf('?') < 0 ? '?' : '&') + 'r=' + Date.now(); }, 1500);
+}
+};
+document.querySelectorAll('picture img').forEach(function (img) {
+img.addEventListener('error', function () { consertar(img); });
+if (img.complete && img.naturalWidth === 0) consertar(img); // falhou antes deste script
+});
 var blocos = document.querySelectorAll('[data-revelar]');
 var calmo = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 if ('IntersectionObserver' in window && !calmo) {
