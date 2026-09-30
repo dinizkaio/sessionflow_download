@@ -1,87 +1,198 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-lingua="pt">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Session Flow</title>
-  <meta name="description" content="Agenda e pagamentos para quem atende por sessões.">
-  <link rel="icon" href="/assets/icone-64.png">
+  <title>Session Flow: agenda e pagamentos de quem atende por sessão</title>
+  <meta name="description" content="Cadastre o cliente uma vez e o mês se monta sozinho, com o valor de cada sessão. Veja quem já pagou, quanto falta receber e cobre pelo WhatsApp.">
+  <link rel="canonical" href="https://getsessionflow.app/">
+  <link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/">
+  <link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/">
+  <link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/">
+  <link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f6f1e8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1526" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6761916040">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Session Flow">
+  <meta property="og:title" content="Session Flow — a agenda que sabe quem já pagou">
+  <meta property="og:description" content="Cadastre o cliente uma vez e o mês se monta sozinho, com o valor de cada sessão. Veja quem já pagou, quanto falta receber e cobre pelo WhatsApp.">
+  <meta property="og:url" content="https://getsessionflow.app/">
+  <meta property="og:image" content="https://getsessionflow.app/assets/og-pt.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Session Flow: a agenda que sabe quem já pagou. A tela Hoje do app, com as sessões do dia e o botão Receber.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="es_LA">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/assets/icone-192.png" type="image/png" sizes="192x192">
   <link rel="apple-touch-icon" href="/assets/icone-180.png">
-  <link rel="stylesheet" href="/assets/site.css">
+  <link rel="preload" href="/assets/fontes/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fontes/inter-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/site.css?v=bfdbecc51e">
+  <script>document.documentElement.classList.add('js');</script>
   <script>
-    // No celular, direto para a loja: o botão "Avaliar" do app abre este
-    // endereço, e todas as versões instaladas dependem disso. O iPad se
-    // apresenta como Mac; o toque na tela o diferencia de um computador.
-    (function () {
-      var ua = navigator.userAgent || '';
-      var ios = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
-      if (ios) {
-        location.replace('https://apps.apple.com/app/id6761916040');
-      } else if (/Android/i.test(ua)) {
-        location.replace('https://play.google.com/store/apps/details?id=com.sessionflow.sessions');
-      }
-    })();
+    if (/^android-app:\/\/com\.sessionflow\.sessions/.test(document.referrer)) location.replace('https://play.google.com/store/apps/details?id=com.sessionflow.sessions');
   </script>
+  <script src="/assets/site.js?v=6243ba2083" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://getsessionflow.app/#organizacao","name":"Session Flow","url":"https://getsessionflow.app/","logo":"https://getsessionflow.app/assets/icone-512.png","email":"mundi.labs.flow@gmail.com","sameAs":["https://apps.apple.com/app/id6761916040","https://play.google.com/store/apps/details?id=com.sessionflow.sessions"]},{"@type":"WebSite","@id":"https://getsessionflow.app/#site","name":"Session Flow","url":"https://getsessionflow.app/","inLanguage":["pt-BR","en","es"],"publisher":{"@id":"https://getsessionflow.app/#organizacao"}},{"@type":"MobileApplication","name":"Session Flow","url":"https://getsessionflow.app/","inLanguage":"pt-BR","description":"Cadastre o cliente uma vez e o mês se monta sozinho, com o valor de cada sessão. Veja quem já pagou, quanto falta receber e cobre pelo WhatsApp.","operatingSystem":"Android, iOS","applicationCategory":"BusinessApplication","image":"https://getsessionflow.app/assets/icone-512.png","installUrl":["https://apps.apple.com/app/id6761916040","https://play.google.com/store/apps/details?id=com.sessionflow.sessions"],"offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"},"publisher":{"@id":"https://getsessionflow.app/#organizacao"}}]}</script>
 </head>
 <body>
-  <main class="capa">
-    <img class="icone" src="/assets/icone-180.png" alt="" width="96" height="96">
-    <h1>Session Flow</h1>
-    <p class="chamada" data-t="chamada">Agenda e pagamentos para quem atende por sessões.</p>
-    <div class="lojas">
-      <a class="botao" href="https://apps.apple.com/app/id6761916040" data-t="appStore">Baixar na App Store</a>
-      <a class="botao" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions" data-t="googlePlay">Baixar no Google Play</a>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <div class="aviso-lingua" role="region" aria-live="polite" hidden>
+    <div class="conteiner"><span class="aviso-texto"></span> <a href="/"></a><button type="button"></button></div>
+  </div>
+  <header class="cabecalho">
+    <div class="conteiner">
+      <a class="marca" href="/"><img src="/assets/icone-64.png" alt="" width="36" height="36"><span>Session Flow</span></a>
+      <nav aria-label="Menu"><ul class="menu"><li><a href="#recursos">Recursos</a></li><li><a href="#privacidade">Privacidade</a></li><li><a href="#planos">Planos</a></li><li><a href="#perguntas">Perguntas</a></li></ul></nav>
+      <div class="cabecalho-acoes">
+        <nav aria-label="Idioma"><ul class="linguas"><li><a aria-current="page" href="/" lang="pt-BR" title="Português"><span class="longo">Português</span><span class="curto">PT</span></a></li><li><a href="/en/" hreflang="en" lang="en" title="English" data-escolher-lingua="en"><span class="longo">English</span><span class="curto">EN</span></a></li><li><a href="/es/" hreflang="es" lang="es-419" title="Español" data-escolher-lingua="es"><span class="longo">Español</span><span class="curto">ES</span></a></li></ul></nav>
+        <a class="link-web" href="https://app.getsessionflow.app">Versão web</a>
+      </div>
     </div>
-    <p class="web"><a href="https://app.getsessionflow.app" data-t="web">Usar no navegador</a> — <span data-t="webNota">para assinantes Premium com a nuvem ligada</span></p>
+  </header>
+  <main id="conteudo">
+    <section class="hero">
+      <svg class="fita" viewBox="0 0 1440 420" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <path d="M-80 408 C 280 430, 560 380, 840 280 S 1260 150, 1520 215" fill="none" stroke="#F2B544" stroke-width="54"
+            stroke-linecap="round" vector-effect="non-scaling-stroke" opacity="0.9"/>
+    </svg>
+      <div class="conteiner">
+        <div class="hero-texto">
+          <p class="eyebrow">Agenda e pagamentos para quem atende por sessão</p>
+          <h1 class="titulo">A agenda que <em>sabe quem já pagou.</em></h1>
+          <p class="lead">Cadastre o cliente uma vez e o mês se monta sozinho, com o valor de cada sessão. Marque o pagamento com um toque, veja quanto falta receber e mande a cobrança pronta pelo WhatsApp.</p>
+          <div class="lojas">
+          <a class="loja loja-ios" href="https://apps.apple.com/app/id6761916040"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5v11m0 0l-4.2-4.2M12 14.5l4.2-4.2M5 16.5v1.8c0 1.2 1 2.2 2.2 2.2h9.6c1.2 0 2.2-1 2.2-2.2v-1.8"/></svg><span><small>Baixar para iPhone e iPad</small><strong>App Store</strong></span></a>
+          <a class="loja loja-android" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5v11m0 0l-4.2-4.2M12 14.5l4.2-4.2M5 16.5v1.8c0 1.2 1 2.2 2.2 2.2h9.6c1.2 0 2.2-1 2.2-2.2v-1.8"/></svg><span><small>Baixar para Android</small><strong>Google Play</strong></span></a>
+        </div>
+          <p class="hero-nota">Grátis até 4 clientes · Premium com 14 dias grátis</p>
+        </div>
+        <figure class="hero-visual"><picture><source type="image/avif" srcset="/assets/img/pt/hero-480.avif 480w, /assets/img/pt/hero-800.avif 800w, /assets/img/pt/hero-1200.avif 1200w" sizes="(max-width: 56rem) 92vw, 36rem"><source type="image/webp" srcset="/assets/img/pt/hero-480.webp 480w, /assets/img/pt/hero-800.webp 800w, /assets/img/pt/hero-1200.webp 1200w" sizes="(max-width: 56rem) 92vw, 36rem"><img src="/assets/img/pt/hero-1200.webp" width="1200" height="1283" alt="A tela Hoje do Session Flow, com as sessões do dia, o horário e o valor de cada uma. Em destaque, o cartão de um cliente com uma sessão em aberto e o botão Receber, com a anotação &quot;um toque e está pago&quot;." decoding="async" fetchpriority="high"></picture></figure>
+      </div>
+    </section>
+    <div class="publico"><div class="conteiner"><p>Feito para psicólogos, psicanalistas, terapeutas, fonoaudiólogos, professores particulares e todo profissional que atende por sessão.</p></div></div>
+    <section class="secao" id="como-funciona" aria-labelledby="titulo-passos">
+      <div class="conteiner">
+        <div class="secao-cabeca" data-revelar>
+          <p class="kicker">Como funciona</p>
+          <h2 class="titulo" id="titulo-passos">Três passos,<br><em>e o mês anda sozinho.</em></h2>
+        </div>
+        <ol class="passos"><li data-revelar><h3>Cadastre o cliente</h3><p>Nome, valor e a regra: semanal, quinzenal, mensal ou em grupo. Uma vez só.</p></li><li data-revelar><h3>A agenda se monta</h3><p>As sessões do mês aparecem sozinhas. Feriados e férias cancelam as que caem neles.</p></li><li data-revelar><h3>Receba e acompanhe</h3><p>Um toque marca a sessão como paga. O que fica em aberto entra no total a receber.</p></li></ol>
+      </div>
+    </section>
+    <section class="secao" id="recursos" aria-labelledby="titulo-recursos" style="padding-top:0">
+      <div class="conteiner">
+        <div class="secao-cabeca" data-revelar>
+          <p class="kicker">Recursos</p>
+          <h2 class="titulo" id="titulo-recursos">O dinheiro do consultório,<br><em>tão claro quanto a agenda.</em></h2>
+        </div>
+        <div class="grade">
+          <article class="cartao azul c-a-receber" data-revelar>
+            <div><h3 class="titulo">Quanto falta receber. <em>E de quem.</em></h3><p>O total a receber no topo e cada cliente com o que ficou em aberto. Sem planilha, sem caderninho, sem conta de cabeça.</p></div>
+            <figure><picture><source type="image/avif" srcset="/assets/img/pt/a_receber-480.avif 480w, /assets/img/pt/a_receber-800.avif 800w, /assets/img/pt/a_receber-1100.avif 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><source type="image/webp" srcset="/assets/img/pt/a_receber-480.webp 480w, /assets/img/pt/a_receber-800.webp 800w, /assets/img/pt/a_receber-1100.webp 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><img src="/assets/img/pt/a_receber-1100.webp" width="1100" height="1120" alt="O painel A receber da tela Clientes, com o total e de quantos clientes, e a anotação &quot;a conta já está feita&quot;." decoding="async" loading="lazy"></picture></figure>
+          </article>
+          <article class="cartao tinta c-cobranca" data-revelar>
+            <div><span class="selo-premium"><svg viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" d="M10 1.5l2.3 5.2 5.7.5-4.3 3.8 1.3 5.6L10 13.7l-5 2.9 1.3-5.6L2 7.2l5.7-.5z"/></svg>Premium</span><h3 class="titulo">Cobrar <em>sem constrangimento.</em></h3><p>A mensagem sai pronta no WhatsApp, com cada sessão em aberto e o total. Você confere e envia.</p></div>
+            <figure><picture><source type="image/avif" srcset="/assets/img/pt/cobranca-480.avif 480w, /assets/img/pt/cobranca-800.avif 800w, /assets/img/pt/cobranca-1100.avif 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><source type="image/webp" srcset="/assets/img/pt/cobranca-480.webp 480w, /assets/img/pt/cobranca-800.webp 800w, /assets/img/pt/cobranca-1100.webp 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><img src="/assets/img/pt/cobranca-1100.webp" width="1100" height="1066" alt="Uma mensagem de cobrança no WhatsApp com as sessões em aberto e o total, ao lado da tela do app que a montou." decoding="async" loading="lazy"></picture></figure>
+          </article>
+          <article class="cartao papel-2 c-feriado" data-revelar>
+            <div><h3 class="titulo">Feriado?<br><em>A agenda já sabe.</em></h3><p>Feriados, férias e folgas cancelam as sessões do dia, e a série continua depois.</p></div>
+            <figure><picture><source type="image/avif" srcset="/assets/img/pt/feriado-480.avif 480w, /assets/img/pt/feriado-800.avif 800w, /assets/img/pt/feriado-1100.avif 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><source type="image/webp" srcset="/assets/img/pt/feriado-480.webp 480w, /assets/img/pt/feriado-800.webp 800w, /assets/img/pt/feriado-1100.webp 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><img src="/assets/img/pt/feriado-1100.webp" width="1100" height="1126" alt="A agenda do mês com um feriado marcado: as sessões daquele dia saem sozinhas." decoding="async" loading="lazy"></picture></figure>
+          </article>
+          <article class="cartao  c-recibo" data-revelar>
+            <div><h3 class="titulo">Recibos em PDF, <em>em segundos.</em></h3><p>Recibos e declarações de comparecimento com os seus dados, prontos para enviar ao cliente.</p></div>
+            <figure><picture><source type="image/avif" srcset="/assets/img/pt/recibo-480.avif 480w, /assets/img/pt/recibo-800.avif 800w, /assets/img/pt/recibo-1100.avif 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><source type="image/webp" srcset="/assets/img/pt/recibo-480.webp 480w, /assets/img/pt/recibo-800.webp 800w, /assets/img/pt/recibo-1100.webp 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><img src="/assets/img/pt/recibo-1100.webp" width="1100" height="1019" alt="Um recibo em PDF com as sessões do mês, ao lado da tela Documentos do app." decoding="async" loading="lazy"></picture></figure>
+          </article>
+          <article class="cartao papel-2 c-estatisticas" data-revelar>
+            <div><h3 class="titulo">O mês fechado, <em>num olhar.</em></h3><p>Recebido, previsto e o que falta. Indicadores e gráfico nos planos Essencial e Premium.</p></div>
+            <figure><picture><source type="image/avif" srcset="/assets/img/pt/estatisticas-480.avif 480w, /assets/img/pt/estatisticas-800.avif 800w, /assets/img/pt/estatisticas-1100.avif 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><source type="image/webp" srcset="/assets/img/pt/estatisticas-480.webp 480w, /assets/img/pt/estatisticas-800.webp 800w, /assets/img/pt/estatisticas-1100.webp 1100w" sizes="(max-width: 40rem) 92vw, (max-width: 62rem) 46vw, 40rem"><img src="/assets/img/pt/estatisticas-1100.webp" width="1100" height="1015" alt="As estatísticas do mês: recebido, previsto e o que falta receber." decoding="async" loading="lazy"></picture></figure>
+          </article>
+          <article class="cartao  c-computador" data-revelar>
+            <div><span class="selo-premium"><svg viewBox="0 0 20 20" aria-hidden="true"><path fill="currentColor" d="M10 1.5l2.3 5.2 5.7.5-4.3 3.8 1.3 5.6L10 13.7l-5 2.9 1.3-5.6L2 7.2l5.7-.5z"/></svg>Premium</span><h3 class="titulo">No celular <em>e no computador.</em></h3><p>Com a nuvem ligada, os mesmos dados no celular, no tablet e no navegador, em app.getsessionflow.app.</p></div>
+            <figure><picture><source type="image/avif" srcset="/assets/img/pt/computador-480.avif 480w, /assets/img/pt/computador-800.avif 800w, /assets/img/pt/computador-1200.avif 1200w" sizes="(max-width: 40rem) 92vw, 42rem"><source type="image/webp" srcset="/assets/img/pt/computador-480.webp 480w, /assets/img/pt/computador-800.webp 800w, /assets/img/pt/computador-1200.webp 1200w" sizes="(max-width: 40rem) 92vw, 42rem"><img src="/assets/img/pt/computador-1200.webp" width="1200" height="1179" alt="O Session Flow aberto no navegador do computador e no celular, com os mesmos dados." decoding="async" loading="lazy"></picture></figure>
+          </article>
+        </div>
+        <div class="mais" data-revelar>
+          <h3>E também</h3>
+          <ul><li>Lembrete antes de cada sessão</li><li>Faltas, remarcações e sessões avulsas</li><li>Grupos com o valor de cada participante (Premium)</li><li>Pagamento antecipado e descontos (Premium)</li><li>Eventos e compromissos na mesma agenda</li><li>8 paletas de cores, com modo noturno</li><li>Backup completo</li><li>Português, inglês e espanhol</li></ul>
+        </div>
+      </div>
+    </section>
+    <section class="secao privacidade" id="privacidade" aria-labelledby="titulo-privacidade">
+      <div class="conteiner">
+        <div data-revelar>
+          <p class="kicker">Privacidade</p>
+          <h2 class="titulo" id="titulo-privacidade">Seus dados ficam <em>no seu celular.</em></h2>
+          <p class="lead">Sem a nuvem, tudo fica no seu aparelho: nós não recebemos, não vemos e não guardamos o que você registra no Session Flow.</p>
+          <ul class="garantias"><li><strong>Sem conta obrigatória</strong><span>Você usa o app sem cadastro e sem login.</span></li><li><strong>Sem anúncios e sem rastreadores</strong><span>Nada de publicidade nem de ferramentas de análise de uso ou de rastreamento.</span></li><li><strong>Nuvem opcional</strong><span>No Premium, só se você ligar: uma cópia no Google Cloud, em São Paulo, para sincronizar os seus aparelhos.</span></li><li><strong>Você no controle</strong><span>Desligue a nuvem, apague os dados dela ou a conta pelo próprio app, quando quiser.</span></li></ul>
+          <p class="nota">O Session Flow não é prontuário: não tem campos para diagnóstico nem para anotações clínicas. <a href="/privacidade/">Leia a Política de Privacidade</a></p>
+        </div>
+        <figure data-revelar><picture><source type="image/avif" srcset="/assets/img/pt/privacidade-480.avif 480w, /assets/img/pt/privacidade-800.avif 800w, /assets/img/pt/privacidade-1100.avif 1100w" sizes="(max-width: 56rem) 92vw, 34rem"><source type="image/webp" srcset="/assets/img/pt/privacidade-480.webp 480w, /assets/img/pt/privacidade-800.webp 800w, /assets/img/pt/privacidade-1100.webp 1100w" sizes="(max-width: 56rem) 92vw, 34rem"><img src="/assets/img/pt/privacidade-1100.webp" width="1100" height="1063" alt="A tela Hoje no modo noturno, com um cadeado e três selos: sem conta obrigatória, sem rastreamento e nuvem opcional." decoding="async" loading="lazy"></picture></figure>
+      </div>
+    </section>
+    <section class="secao" id="planos" aria-labelledby="titulo-planos">
+      <div class="conteiner">
+        <div class="secao-cabeca" data-revelar>
+          <p class="kicker">Planos</p>
+          <h2 class="titulo" id="titulo-planos">Comece grátis. <em>Cresça quando quiser.</em></h2>
+        </div>
+        <div class="planos-grade">
+          <article class="plano" data-revelar><h3>Grátis</h3><p class="sub">Para começar</p><ul><li>Até 4 cadastros ativos</li><li>Hoje, Agenda e lembretes completos</li><li>Sessões avulsas e reserva de horário</li><li>Recibos e declarações em PDF</li><li>Lembrete pelo WhatsApp</li><li>Backup completo</li></ul></article>
+          <article class="plano" data-revelar><h3>Essencial</h3><p class="sub">Mensal</p><ul><li>Até 40 cadastros ativos</li><li>Tudo o que o Grátis tem</li><li>Estatísticas completas</li><li>Lembretes e documentos sem a marca Session Flow</li></ul></article>
+          <article class="plano premium" data-revelar><span class="selo-teste">14 dias grátis</span><h3>Premium</h3><p class="sub">Mensal, anual ou vitalício</p><ul><li>Tudo o que o Essencial tem</li><li>Até 300 cadastros ativos</li><li>Cobrança pelo WhatsApp com as sessões em aberto</li><li>Grupos, pagamento antecipado e descontos</li><li>Férias e folgas por período, sem limite</li><li>Nuvem: celular, tablet e computador</li></ul></article>
+        </div>
+        <div class="planos-notas"><p>Os preços aparecem na loja, na moeda do seu país. A assinatura é feita e cancelada pela App Store ou pelo Google Play.</p></div>
+      </div>
+    </section>
+    <section class="secao perguntas" id="perguntas" aria-labelledby="titulo-perguntas">
+      <div class="conteiner">
+        <div class="secao-cabeca">
+          <p class="kicker">Perguntas</p>
+          <h2 class="titulo" id="titulo-perguntas">Perguntas <em>frequentes.</em></h2>
+        </div>
+        <div class="lista-perguntas"><details><summary>Onde ficam os meus dados?</summary><p>No seu aparelho. Sem a nuvem, nós não recebemos, não vemos e não guardamos o que você registra. A nuvem é opcional, faz parte do Premium e só funciona se você ligar.</p></details><details><summary>Preciso criar uma conta?</summary><p>Não. A conta (Google ou Apple) só entra se você ligar a nuvem, para sincronizar os seus aparelhos.</p></details><details><summary>Funciona no computador?</summary><p>Sim, no Premium com a nuvem ligada: abra app.getsessionflow.app no navegador e entre com a mesma conta. Os dados são os mesmos do celular.</p></details><details><summary>Tem para iPhone e Android?</summary><p>Sim, e também para iPad e tablets Android.</p></details><details><summary>Como funciona o teste grátis?</summary><p>Ao escolher o Premium no app, você começa com 14 dias grátis. Depois, a assinatura continua pela loja, a menos que você cancele antes.</p></details><details><summary>Como cancelo a assinatura?</summary><p>Pela loja. No Android: Google Play › Assinaturas. No iPhone: Ajustes › seu nome › Assinaturas. Quem gerencia a assinatura é a loja.</p></details><details><summary>O recibo do app vale para o Imposto de Renda?</summary><p>Não. O PDF do app é recibo e declaração para enviar ao cliente. Quem atende como pessoa física na área da saúde emite o recibo do Imposto de Renda no Receita Saúde.</p></details><details><summary>O Session Flow é um prontuário?</summary><p>Não. O app não tem campos para diagnóstico nem para anotações clínicas: guarda o que a agenda e os pagamentos precisam.</p></details><details><summary>Dá para cobrar por mês ou em grupo?</summary><p>Sim. Você escolhe cobrar por sessão ou por mês, e o app faz a conta. Grupos, com o valor de cada participante, fazem parte do Premium.</p></details></div>
+      </div>
+    </section>
+    <section class="secao chamada-final" aria-labelledby="titulo-final">
+      <div class="conteiner">
+        <div data-revelar>
+          <h2 class="titulo" id="titulo-final">Comece <em>hoje, grátis.</em></h2>
+          <p class="lead">Até 4 clientes sem pagar nada. No Premium, 14 dias grátis.</p>
+          <div class="lojas">
+          <a class="loja loja-ios" href="https://apps.apple.com/app/id6761916040"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5v11m0 0l-4.2-4.2M12 14.5l4.2-4.2M5 16.5v1.8c0 1.2 1 2.2 2.2 2.2h9.6c1.2 0 2.2-1 2.2-2.2v-1.8"/></svg><span><small>Baixar para iPhone e iPad</small><strong>App Store</strong></span></a>
+          <a class="loja loja-android" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5v11m0 0l-4.2-4.2M12 14.5l4.2-4.2M5 16.5v1.8c0 1.2 1 2.2 2.2 2.2h9.6c1.2 0 2.2-1 2.2-2.2v-1.8"/></svg><span><small>Baixar para Android</small><strong>Google Play</strong></span></a>
+        </div>
+          <p class="web">Assinante Premium? Use também no navegador: <a href="https://app.getsessionflow.app">app.getsessionflow.app</a></p>
+        </div>
+        <figure class="qr" data-revelar>
+          <img src="/assets/qr-baixar.svg" width="200" height="200" alt="Código QR que abre a loja do seu celular" loading="lazy">
+          <figcaption>No computador? Aponte a câmera do celular para baixar.</figcaption>
+        </figure>
+      </div>
+    </section>
   </main>
-  <footer class="rodape">
-    <p><a href="/privacidade/" data-t="privacidade" data-l="privacidade">Política de Privacidade</a> · <a href="/termos/" data-t="termos" data-l="termos">Termos de Uso da Nuvem</a></p>
-    <p><span data-t="contato">Contato</span>: <a href="mailto:mundi.labs.flow@gmail.com">mundi.labs.flow@gmail.com</a></p>
+  <footer class="rodape-site">
+    <div class="conteiner">
+      <div>
+        <a class="marca" href="/"><img src="/assets/icone-64.png" alt="" width="36" height="36" loading="lazy"><span>Session Flow</span></a>
+        <p class="desc">Agenda e pagamentos para quem atende por sessão.</p>
+      </div>
+      <nav aria-label="Session Flow">
+        <ul>
+          <li><a href="/privacidade/">Política de Privacidade</a></li>
+          <li><a href="/termos/">Termos de Uso da Nuvem</a></li>
+          <li><a href="mailto:mundi.labs.flow@gmail.com">Contato</a></li>
+          <li><a href="https://app.getsessionflow.app">Versão web</a></li>
+        </ul>
+      </nav>
+      <p class="miudo">© 2026 Session Flow · App Store é uma marca da Apple Inc. Google Play é uma marca da Google LLC.</p>
+    </div>
   </footer>
-  <script>
-    // Português é o padrão da página; inglês e espanhol pela língua do
-    // navegador (outras línguas ficam em inglês).
-    (function () {
-      var textos = {
-        en: {
-          chamada: 'Scheduling and payments for professionals who work in sessions.',
-          appStore: 'Download on the App Store',
-          googlePlay: 'Get it on Google Play',
-          web: 'Use in the browser',
-          webNota: 'for Premium subscribers with the cloud on',
-          privacidade: 'Privacy Policy',
-          termos: 'Cloud Terms of Use',
-          contato: 'Contact'
-        },
-        es: {
-          chamada: 'Agenda y pagos para quienes atienden por sesiones.',
-          appStore: 'Descargar en la App Store',
-          googlePlay: 'Disponible en Google Play',
-          web: 'Usar en el navegador',
-          webNota: 'para suscriptores Premium con la nube activada',
-          privacidade: 'Política de Privacidad',
-          termos: 'Términos de Uso de la Nube',
-          contato: 'Contacto'
-        }
-      };
-      var links = {
-        en: { privacidade: '/en/privacy/', termos: '/en/terms/' },
-        es: { privacidade: '/es/privacidad/', termos: '/es/terminos/' }
-      };
-      var lingua = ((navigator.languages && navigator.languages[0]) || navigator.language || 'pt')
-        .toLowerCase().slice(0, 2);
-      if (lingua === 'pt') return;
-      if (!textos[lingua]) lingua = 'en';
-      document.documentElement.lang = lingua;
-      var t = textos[lingua];
-      document.querySelectorAll('[data-t]').forEach(function (el) {
-        el.textContent = t[el.getAttribute('data-t')];
-      });
-      document.querySelectorAll('[data-l]').forEach(function (el) {
-        el.setAttribute('href', links[lingua][el.getAttribute('data-l')]);
-      });
-      document.querySelector('meta[name="description"]').setAttribute('content', t.chamada);
-    })();
-  </script>
+  <script type="application/json" id="linguas-do-site">{"urls": {"pt": "/", "en": "/en/", "es": "/es/"}, "lang": {"pt": "pt-BR", "en": "en", "es": "es-419"}, "sugestao": {"pt": {"texto": "Esta página também está em português.", "botao": "Ver em português", "fechar": "Fechar"}, "en": {"texto": "This page is also available in English.", "botao": "View in English", "fechar": "Close"}, "es": {"texto": "Esta página también está en español.", "botao": "Ver en español", "fechar": "Cerrar"}}}</script>
 </body>
 </html>

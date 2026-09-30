@@ -1,0 +1,224 @@
+{
+ "pt": {
+  "hero": {
+   "larguras": [
+    480,
+    800,
+    1200
+   ],
+   "largura": 1200,
+   "altura": 1283
+  },
+  "a_receber": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1120
+  },
+  "cobranca": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1066
+  },
+  "feriado": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1126
+  },
+  "privacidade": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1063
+  },
+  "computador": {
+   "larguras": [
+    480,
+    800,
+    1200
+   ],
+   "largura": 1200,
+   "altura": 1179
+  },
+  "recibo": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1019
+  },
+  "estatisticas": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1015
+  }
+ },
+ "en": {
+  "hero": {
+   "larguras": [
+    480,
+    800,
+    1200
+   ],
+   "largura": 1200,
+   "altura": 1283
+  },
+  "a_receber": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1120
+  },
+  "cobranca": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1066
+  },
+  "feriado": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1126
+  },
+  "privacidade": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1063
+  },
+  "computador": {
+   "larguras": [
+    480,
+    800,
+    1200
+   ],
+   "largura": 1200,
+   "altura": 1179
+  },
+  "recibo": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1019
+  },
+  "estatisticas": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1015
+  }
+ },
+ "es": {
+  "hero": {
+   "larguras": [
+    480,
+    800,
+    1200
+   ],
+   "largura": 1200,
+   "altura": 1283
+  },
+  "a_receber": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1120
+  },
+  "cobranca": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1066
+  },
+  "feriado": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1126
+  },
+  "privacidade": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1063
+  },
+  "computador": {
+   "larguras": [
+    480,
+    800,
+    1200
+   ],
+   "largura": 1200,
+   "altura": 1179
+  },
+  "recibo": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1019
+  },
+  "estatisticas": {
+   "larguras": [
+    480,
+    800,
+    1100
+   ],
+   "largura": 1100,
+   "altura": 1015
+  }
+ }
+}
