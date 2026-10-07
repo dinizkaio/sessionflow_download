@@ -1,12 +1,586 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://getsessionflow.app/</loc></url>
-  <url><loc>https://getsessionflow.app/en/</loc></url>
-  <url><loc>https://getsessionflow.app/es/</loc></url>
-  <url><loc>https://getsessionflow.app/privacidade/</loc></url>
-  <url><loc>https://getsessionflow.app/en/privacy/</loc></url>
-  <url><loc>https://getsessionflow.app/es/privacidad/</loc></url>
-  <url><loc>https://getsessionflow.app/termos/</loc></url>
-  <url><loc>https://getsessionflow.app/en/terms/</loc></url>
-  <url><loc>https://getsessionflow.app/es/terminos/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://getsessionflow.app/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/sobre/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/acerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/about/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/psicologos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicologos/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicologos/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/psicanalistas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicanalistas/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/terapeutas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/terapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/terapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/nutricionistas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/nutricionistas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/nutritionists/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/nutricionistas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/nutritionists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/professores-particulares/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/professores-particulares/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/tutors/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/profesores-particulares/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/tutors/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/fonoaudiologos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fonoaudiologos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/speech-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/speech-therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/primeiros-passos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/primeiros-passos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/primeros-pasos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/getting-started/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/cadastros/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/cadastros/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/records/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/registros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/records/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/sessoes-e-agenda/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/sessoes-e-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/sessions-and-schedule/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/sesiones-y-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/sessions-and-schedule/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/pagamentos-e-cobranca/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/pagamentos-e-cobranca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/payments-and-billing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/cobros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/payments-and-billing/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/whatsapp/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/whatsapp/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/notificacoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/notificacoes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/notifications/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/notificaciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/notifications/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/folgas-e-ferias/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/folgas-e-ferias/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/time-off/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/vacaciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/time-off/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/estatisticas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/estatisticas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/statistics/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/estadisticas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/statistics/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/backup-e-dados/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/backup-e-dados/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/backup-and-data/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/copias-y-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/backup-and-data/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/planos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/planos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/plans/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/planes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/plans/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/configuracoes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/configuracoes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/settings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/configuraciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/settings/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/problemas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/problemas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/troubleshooting/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/problemas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/troubleshooting/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/documentos-e-recibos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/documentos-e-recibos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/documents-and-receipts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/documentos-y-recibos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/documents-and-receipts/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/ajuda/nuvem-e-privacidade/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/nuvem-e-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/cloud-and-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/nube-y-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/cloud-and-privacy/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/novidades/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/about/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/acerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/about/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/for/therapists/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/terapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/terapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/for/tutors/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/tutors/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/professores-particulares/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/profesores-particulares/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/tutors/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/for/nutritionists/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/nutritionists/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/nutricionistas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/nutricionistas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/nutritionists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/for/speech-therapists/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/speech-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fonoaudiologos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/speech-therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/getting-started/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/primeiros-passos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/primeros-pasos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/getting-started/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/records/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/cadastros/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/records/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/registros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/records/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/sessions-and-schedule/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/sessoes-e-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/sessions-and-schedule/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/sesiones-y-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/sessions-and-schedule/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/payments-and-billing/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/pagamentos-e-cobranca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/payments-and-billing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/cobros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/payments-and-billing/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/whatsapp/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/whatsapp/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/notifications/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/notificacoes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/notifications/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/notificaciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/notifications/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/time-off/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/folgas-e-ferias/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/time-off/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/vacaciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/time-off/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/statistics/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/estatisticas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/statistics/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/estadisticas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/statistics/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/backup-and-data/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/backup-e-dados/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/backup-and-data/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/copias-y-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/backup-and-data/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/plans/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/planos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/plans/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/planes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/plans/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/settings/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/configuracoes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/settings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/configuraciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/settings/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/troubleshooting/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/problemas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/troubleshooting/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/problemas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/troubleshooting/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/documents-and-receipts/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/documentos-e-recibos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/documents-and-receipts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/documentos-y-recibos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/documents-and-receipts/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/help/cloud-and-privacy/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/nuvem-e-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/cloud-and-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/nube-y-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/cloud-and-privacy/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/whats-new/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/acerca/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/sobre/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/acerca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/about/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/para/psicologos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicologos/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicologos/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/para/terapeutas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/terapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/terapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/para/nutricionistas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/nutricionistas/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/nutricionistas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/nutritionists/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/nutritionists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/para/profesores-particulares/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/profesores-particulares/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/professores-particulares/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/tutors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/tutors/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/primeros-pasos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/primeiros-passos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/getting-started/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/primeros-pasos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/getting-started/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/registros/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/cadastros/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/records/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/registros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/records/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/sesiones-y-agenda/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/sessoes-e-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/sessions-and-schedule/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/sesiones-y-agenda/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/sessions-and-schedule/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/cobros/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/pagamentos-e-cobranca/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/payments-and-billing/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/cobros/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/payments-and-billing/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/whatsapp/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/whatsapp/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/whatsapp/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/notificaciones/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/notificacoes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/notifications/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/notificaciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/notifications/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/vacaciones/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/folgas-e-ferias/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/time-off/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/vacaciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/time-off/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/estadisticas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/estatisticas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/statistics/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/estadisticas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/statistics/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/copias-y-datos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/backup-e-dados/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/backup-and-data/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/copias-y-datos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/backup-and-data/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/planes/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/planos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/plans/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/planes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/plans/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/configuraciones/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/configuracoes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/settings/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/configuraciones/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/settings/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/problemas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/problemas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/troubleshooting/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/problemas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/troubleshooting/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/documentos-y-recibos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/documentos-e-recibos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/documents-and-receipts/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/documentos-y-recibos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/documents-and-receipts/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/ayuda/nube-y-privacidad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/nuvem-e-privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/help/cloud-and-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/ayuda/nube-y-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/help/cloud-and-privacy/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/novedades/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/privacidade/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/privacy/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/privacidad/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/privacy/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/termos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/terms/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/terms/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/terminos/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/terms/"/>
+  </url>
 </urlset>
