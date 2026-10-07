@@ -6,6 +6,9 @@
 
 - [Session Flow: agenda e pagamentos para quem atende por sessão](https://getsessionflow.app/)
 - [Sobre o Session Flow: o app de agenda e pagamentos para quem atende por sessão](https://getsessionflow.app/sobre/)
+- [Panorama do Session Flow: os gráficos do consultório na tela grande](https://getsessionflow.app/panorama/)
+- [Nuvem do Session Flow: o app no celular, no tablet e no computador](https://getsessionflow.app/nuvem/)
+- [Importar o calendário do celular para o Session Flow (Google, iCloud, Outlook)](https://getsessionflow.app/calendario/)
 - [Session Flow para psicólogos: agenda das sessões e controle dos pagamentos](https://getsessionflow.app/para/psicologos/)
 - [Session Flow para psicanalistas: a agenda dos analisandos e a mensalidade sem planilha](https://getsessionflow.app/para/psicanalistas/)
 - [Session Flow para terapeutas: agenda, pagamentos e cobrança pelo WhatsApp](https://getsessionflow.app/para/terapeutas/)
@@ -35,6 +38,9 @@
 
 - [Session Flow: scheduling and payments for private practice](https://getsessionflow.app/en/)
 - [About Session Flow: the scheduling and payments app for session-based professionals](https://getsessionflow.app/en/about/)
+- [Session Flow Insights: your practice's charts on a big screen](https://getsessionflow.app/en/insights/)
+- [Session Flow cloud sync: the app on your phone, tablet and computer](https://getsessionflow.app/en/cloud/)
+- [Import your phone calendar into Session Flow (Google, iCloud, Outlook)](https://getsessionflow.app/en/calendar/)
 - [Session Flow for therapists: session scheduling and payment tracking for private practice](https://getsessionflow.app/en/for/therapists/)
 - [Session Flow for tutors: lesson scheduling, monthly billing and small groups](https://getsessionflow.app/en/for/tutors/)
 - [Session Flow for nutritionists and dietitians: consultations, follow-ups and payments in one place](https://getsessionflow.app/en/for/nutritionists/)
@@ -62,6 +68,9 @@
 
 - [Session Flow: agenda y cobros para quien atiende por sesión](https://getsessionflow.app/es/)
 - [Acerca de Session Flow: la app de agenda y cobros para quien atiende por sesión](https://getsessionflow.app/es/acerca/)
+- [Panorama de Session Flow: los gráficos de tu consultorio en la pantalla grande](https://getsessionflow.app/es/panorama/)
+- [Nube de Session Flow: la app en el celular, la tableta y la computadora](https://getsessionflow.app/es/nube/)
+- [Importar el calendario del celular a Session Flow (Google, iCloud, Outlook)](https://getsessionflow.app/es/calendario/)
 - [Session Flow para psicólogos: agenda de sesiones y control de cobros](https://getsessionflow.app/es/para/psicologos/)
 - [Session Flow para terapeutas: agenda, cobros y mensajes de cobro por WhatsApp](https://getsessionflow.app/es/para/terapeutas/)
 - [Session Flow para nutricionistas: agenda de consultas y controles con los cobros en su lugar](https://getsessionflow.app/es/para/nutricionistas/)

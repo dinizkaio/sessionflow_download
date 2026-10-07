@@ -6,11 +6,16 @@ arquivo `CNAME`; o DNS fica no Namecheap).
 | Endereço | O que é |
 |---|---|
 | `/`, `/en/`, `/es/` | Página inicial em português, inglês e espanhol. |
+| `/panorama/`, `/nuvem/`, `/calendario/` (em inglês `/en/insights/`, `/en/cloud/`, `/en/calendar/`; em espanhol `/es/panorama/`, `/es/nube/`, `/es/calendario/`) | Os recursos novos do app: o Panorama, a Nuvem e o Calendário do celular, cada um com a sua imagem de compartilhamento (`assets/og-<recurso>-<língua>.jpg`). |
+| `/sobre/`, `/en/about/`, `/es/acerca/` | Sobre o app: o que é, o que não é, quem faz. |
+| `/para/<profissão>/`, `/en/for/<profissão>/`, `/es/para/<profissão>/` | Uma página por profissão (psicólogos, terapeutas, nutricionistas…). |
+| `/ajuda/`, `/en/help/`, `/es/ayuda/` | A Ajuda do app: um índice e uma página por seção. |
+| `/novidades/`, `/en/whats-new/`, `/es/novedades/` | As notas de cada versão do app. |
 | `/baixar/` | Leva à loja do aparelho (iPhone → App Store, Android → Google Play); no computador, mostra as duas. É o destino do QR da página inicial e o link para compartilhar. |
 | `/privacidade/`, `/termos/` | Política de Privacidade e Termos de Uso da Nuvem, em português — a versão oficial. |
 | `/en/privacy/`, `/en/terms/` | Tradução para o inglês. |
 | `/es/privacidad/`, `/es/terminos/` | Tradução para o espanhol. |
-| `404.html`, `sitemap.xml`, `robots.txt` | Página de endereço inexistente e arquivos para os buscadores. |
+| `404.html`, `sitemap.xml`, `robots.txt`, `llms.txt` | Página de endereço inexistente e arquivos para os buscadores e para as respostas de IA. |
 
 O app web não fica aqui: está em `app.getsessionflow.app`, no Firebase
 Hosting do projeto `session-flow-app`.
@@ -27,9 +32,9 @@ busca.
 Tudo aqui é **gerado** a partir do repositório do app
 (`dinizkaio/session-flow-privado`):
 
-- **Página inicial, `/baixar/`, 404, estilo, script, fontes e imagens:**
-  `tools/site/gerar.py` (textos em `tools/site/textos_site.py`; detalhes em
-  `tools/site/README.md`):
+- **Página inicial, páginas internas, `/baixar/`, 404, estilo, script,
+  fontes e imagens:** `tools/site/gerar.py` (textos em `tools/site/textos_*.py`;
+  detalhes em `tools/site/README.md`):
 
   ```
   python3 tools/site/gerar.py /caminho/deste/repositorio

@@ -33,6 +33,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/about/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/panorama/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/panorama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/panorama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/insights/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/nuvem/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/nuvem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/cloud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/nube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/cloud/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/calendario/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/calendario/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/calendar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/calendario/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/calendar/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/para/psicologos/</loc>
     <lastmod>2026-10-07</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicologos/"/>
@@ -211,6 +235,30 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/about/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/en/insights/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/panorama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/panorama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/insights/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/cloud/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/nuvem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/cloud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/nube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/cloud/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/calendar/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/calendario/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/calendar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/calendario/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/calendar/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/en/for/therapists/</loc>
     <lastmod>2026-10-07</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
@@ -376,6 +424,30 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/about/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/acerca/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/about/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/panorama/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/panorama/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/insights/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/panorama/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/insights/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/nube/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/nuvem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/cloud/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/nube/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/cloud/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/calendario/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/calendario/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/calendar/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/calendario/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/calendar/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/psicologos/</loc>

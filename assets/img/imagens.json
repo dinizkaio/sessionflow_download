@@ -50,16 +50,6 @@
    "largura": 1100,
    "altura": 1063
   },
-  "computador": {
-   "larguras": [
-    480,
-    800,
-    1200
-   ],
-   "reserva": 800,
-   "largura": 1200,
-   "altura": 1179
-  },
   "recibo": {
    "larguras": [
     480,
@@ -79,6 +69,56 @@
    "reserva": 800,
    "largura": 1100,
    "altura": 1015
+  },
+  "nuvem": {
+   "larguras": [
+    640,
+    1100,
+    1600
+   ],
+   "reserva": 1100,
+   "largura": 1600,
+   "altura": 1060
+  },
+  "panorama": {
+   "larguras": [
+    640,
+    1100,
+    1600
+   ],
+   "reserva": 1100,
+   "largura": 1600,
+   "altura": 1216
+  },
+  "panorama_cartoes": {
+   "larguras": [
+    640,
+    1000,
+    1480
+   ],
+   "reserva": 1000,
+   "largura": 1480,
+   "altura": 789
+  },
+  "agenda_mes": {
+   "larguras": [
+    640,
+    1000,
+    1460
+   ],
+   "reserva": 1000,
+   "largura": 1460,
+   "altura": 1028
+  },
+  "calendario": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1178
   }
  },
  "en": {
@@ -132,16 +172,6 @@
    "largura": 1100,
    "altura": 1063
   },
-  "computador": {
-   "larguras": [
-    480,
-    800,
-    1200
-   ],
-   "reserva": 800,
-   "largura": 1200,
-   "altura": 1179
-  },
   "recibo": {
    "larguras": [
     480,
@@ -161,6 +191,56 @@
    "reserva": 800,
    "largura": 1100,
    "altura": 1015
+  },
+  "nuvem": {
+   "larguras": [
+    640,
+    1100,
+    1600
+   ],
+   "reserva": 1100,
+   "largura": 1600,
+   "altura": 1060
+  },
+  "panorama": {
+   "larguras": [
+    640,
+    1100,
+    1600
+   ],
+   "reserva": 1100,
+   "largura": 1600,
+   "altura": 1216
+  },
+  "panorama_cartoes": {
+   "larguras": [
+    640,
+    1000,
+    1480
+   ],
+   "reserva": 1000,
+   "largura": 1480,
+   "altura": 751
+  },
+  "agenda_mes": {
+   "larguras": [
+    640,
+    1000,
+    1460
+   ],
+   "reserva": 1000,
+   "largura": 1460,
+   "altura": 1028
+  },
+  "calendario": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1185
   }
  },
  "es": {
@@ -214,16 +294,6 @@
    "largura": 1100,
    "altura": 1063
   },
-  "computador": {
-   "larguras": [
-    480,
-    800,
-    1200
-   ],
-   "reserva": 800,
-   "largura": 1200,
-   "altura": 1179
-  },
   "recibo": {
    "larguras": [
     480,
@@ -243,6 +313,56 @@
    "reserva": 800,
    "largura": 1100,
    "altura": 1015
+  },
+  "nuvem": {
+   "larguras": [
+    640,
+    1100,
+    1600
+   ],
+   "reserva": 1100,
+   "largura": 1600,
+   "altura": 1060
+  },
+  "panorama": {
+   "larguras": [
+    640,
+    1100,
+    1600
+   ],
+   "reserva": 1100,
+   "largura": 1600,
+   "altura": 1216
+  },
+  "panorama_cartoes": {
+   "larguras": [
+    640,
+    1000,
+    1480
+   ],
+   "reserva": 1000,
+   "largura": 1480,
+   "altura": 789
+  },
+  "agenda_mes": {
+   "larguras": [
+    640,
+    1000,
+    1460
+   ],
+   "reserva": 1000,
+   "largura": 1460,
+   "altura": 1028
+  },
+  "calendario": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1178
   }
  }
 }
