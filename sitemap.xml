@@ -233,6 +233,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/whats-new/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/blog/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/en/about/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/sobre/"/>
