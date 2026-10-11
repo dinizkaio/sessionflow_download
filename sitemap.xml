@@ -105,6 +105,14 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/speech-therapists/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/para/fisioterapeutas/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fisioterapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fisioterapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/ajuda/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/ajuda/"/>
@@ -236,11 +244,17 @@
     <loc>https://getsessionflow.app/blog/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/en/about/</loc>
@@ -321,6 +335,14 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicanalistas/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicoanalistas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/psychoanalysts/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/for/physical-therapists/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fisioterapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fisioterapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/physical-therapists/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/en/help/</loc>
@@ -451,6 +473,22 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/whats-new/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/en/blog/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/blog/track-client-payments/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/es/acerca/</loc>
     <lastmod>2026-10-11</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/sobre/"/>
@@ -529,6 +567,14 @@
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicanalistas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychoanalysts/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/psychoanalysts/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/para/fisioterapeutas/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fisioterapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fisioterapeutas/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/physical-therapists/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/es/ayuda/</loc>
@@ -657,6 +703,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/whats-new/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/blog/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/privacidade/</loc>
