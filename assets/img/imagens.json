@@ -28,7 +28,7 @@
    ],
    "reserva": 800,
    "largura": 1100,
-   "altura": 1066
+   "altura": 1080
   },
   "feriado": {
    "larguras": [
@@ -150,7 +150,7 @@
    ],
    "reserva": 800,
    "largura": 1100,
-   "altura": 1066
+   "altura": 1080
   },
   "feriado": {
    "larguras": [
@@ -272,7 +272,7 @@
    ],
    "reserva": 800,
    "largura": 1100,
-   "altura": 1066
+   "altura": 1080
   },
   "feriado": {
    "larguras": [
@@ -342,7 +342,7 @@
    ],
    "reserva": 1000,
    "largura": 1480,
-   "altura": 789
+   "altura": 803
   },
   "agenda_mes": {
    "larguras": [
