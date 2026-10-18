@@ -45,6 +45,34 @@ var aoRolar = function () { cabecalho.classList.toggle('rolado', window.scrollY 
 window.addEventListener('scroll', aoRolar, { passive: true });
 aoRolar();
 }
+var botaoMenu = document.querySelector('.botao-menu');
+var painelMenu = document.getElementById('menu-do-site');
+if (botaoMenu && painelMenu) {
+var rotuloMenu = botaoMenu.querySelector('span');
+var menuAberto = function () { return raiz.classList.contains('menu-aberto'); };
+var abrirMenu = function (sim) {
+raiz.classList.toggle('menu-aberto', sim);
+botaoMenu.setAttribute('aria-expanded', sim ? 'true' : 'false');
+rotuloMenu.textContent = botaoMenu.getAttribute(sim ? 'data-fechar' : 'data-abrir');
+};
+botaoMenu.addEventListener('click', function () { abrirMenu(!menuAberto()); });
+painelMenu.addEventListener('click', function (ev) {
+if (ev.target.closest('a')) abrirMenu(false); // o "Recursos" e o "Planos" ficam na mesma página
+});
+document.addEventListener('keydown', function (ev) {
+if (ev.key === 'Escape' && menuAberto()) {
+abrirMenu(false);
+botaoMenu.focus();
+}
+});
+document.addEventListener('click', function (ev) {
+if (menuAberto() && !ev.target.closest('.cabecalho')) abrirMenu(false); // o véu
+});
+var janelaLarga = window.matchMedia('(min-width: 62.0625rem)');
+var aoMudarLargura = function (m) { if (m.matches) abrirMenu(false); };
+if (janelaLarga.addEventListener) janelaLarga.addEventListener('change', aoMudarLargura);
+else janelaLarga.addListener(aoMudarLargura);
+}
 var dados = document.getElementById('linguas-do-site');
 var aviso = document.querySelector('.aviso-lingua');
 if (!dados || !aviso) return;
