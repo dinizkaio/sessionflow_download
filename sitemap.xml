@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://getsessionflow.app/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
@@ -58,7 +58,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/psicologos/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicologos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychologists/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicologos/"/>
@@ -66,7 +66,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/psicanalistas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicanalistas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychoanalysts/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicoanalistas/"/>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/terapeutas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/terapeutas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/terapeutas/"/>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/nutricionistas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/nutricionistas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/nutritionists/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/nutricionistas/"/>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/professores-particulares/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/professores-particulares/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/tutors/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/profesores-particulares/"/>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/fonoaudiologos/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fonoaudiologos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/speech-therapists/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fonoaudiologos/"/>
@@ -106,11 +106,19 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/para/fisioterapeutas/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fisioterapeutas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/physical-therapists/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fisioterapeutas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/para/personal-trainers/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/personal-trainers/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/personal-trainers/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/entrenadores-personales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/personal-trainers/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/ajuda/</loc>
@@ -234,7 +242,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/novidades/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
@@ -290,7 +298,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/therapists/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/terapeutas/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/terapeutas/"/>
@@ -298,7 +306,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/tutors/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/tutors/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/professores-particulares/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/profesores-particulares/"/>
@@ -306,7 +314,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/nutritionists/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/nutritionists/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/nutricionistas/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/nutricionistas/"/>
@@ -314,7 +322,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/speech-therapists/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/speech-therapists/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fonoaudiologos/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fonoaudiologos/"/>
@@ -322,7 +330,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/psychologists/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychologists/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicologos/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicologos/"/>
@@ -330,7 +338,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/psychoanalysts/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychoanalysts/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicanalistas/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicoanalistas/"/>
@@ -338,11 +346,19 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/for/physical-therapists/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/physical-therapists/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fisioterapeutas/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fisioterapeutas/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/en/for/personal-trainers/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/personal-trainers/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/personal-trainers/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/entrenadores-personales/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/personal-trainers/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/en/help/</loc>
@@ -466,7 +482,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/whats-new/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
@@ -522,7 +538,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/psicologos/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicologos/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicologos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychologists/"/>
@@ -530,7 +546,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/terapeutas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/terapeutas/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/terapeutas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/therapists/"/>
@@ -538,7 +554,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/nutricionistas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/nutricionistas/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/nutricionistas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/nutritionists/"/>
@@ -546,7 +562,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/profesores-particulares/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/profesores-particulares/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/professores-particulares/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/tutors/"/>
@@ -554,7 +570,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/fonoaudiologos/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fonoaudiologos/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fonoaudiologos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/speech-therapists/"/>
@@ -562,7 +578,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/psicoanalistas/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/psicoanalistas/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/psicanalistas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/psychoanalysts/"/>
@@ -570,11 +586,19 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/para/fisioterapeutas/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/fisioterapeutas/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/fisioterapeutas/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/physical-therapists/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/physical-therapists/"/>
+  </url>
+  <url>
+    <loc>https://getsessionflow.app/es/para/entrenadores-personales/</loc>
+    <lastmod>2026-10-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/para/entrenadores-personales/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/para/personal-trainers/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/for/personal-trainers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/for/personal-trainers/"/>
   </url>
   <url>
     <loc>https://getsessionflow.app/es/ayuda/</loc>
@@ -698,7 +722,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/novedades/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
@@ -722,7 +746,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/privacidade/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
@@ -730,7 +754,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/privacy/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
@@ -738,7 +762,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/privacidad/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
@@ -746,7 +770,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/termos/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
@@ -754,7 +778,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/terms/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
@@ -762,7 +786,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/terminos/</loc>
-    <lastmod>2026-10-18</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
