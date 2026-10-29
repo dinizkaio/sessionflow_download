@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://getsessionflow.app/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/"/>
@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/novidades/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
@@ -250,15 +250,23 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/blog/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/blog/recibo-de-psicologo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/recibo-de-psicologo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/superbill-for-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/recibo-de-honorarios-psicologo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/superbill-for-therapists/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/"/>
@@ -482,7 +490,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/whats-new/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
@@ -490,15 +498,23 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/blog/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/en/blog/superbill-for-therapists/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/superbill-for-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/recibo-de-psicologo/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/recibo-de-honorarios-psicologo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/superbill-for-therapists/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/en/blog/track-client-payments/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/"/>
@@ -722,7 +738,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/novedades/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/novidades/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/whats-new/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/novedades/"/>
@@ -730,15 +746,23 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/blog/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/"/>
   </url>
   <url>
+    <loc>https://getsessionflow.app/es/blog/recibo-de-honorarios-psicologo/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/recibo-de-honorarios-psicologo/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/recibo-de-psicologo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/superbill-for-therapists/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getsessionflow.app/en/blog/superbill-for-therapists/"/>
+  </url>
+  <url>
     <loc>https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/blog/control-de-pagos-de-pacientes/"/>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/blog/controle-de-pagamento-de-pacientes/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/blog/track-client-payments/"/>
@@ -746,7 +770,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/privacidade/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
@@ -754,7 +778,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/privacy/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
@@ -762,7 +786,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/privacidad/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/privacidade/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/privacidad/"/>
@@ -770,7 +794,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/termos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
@@ -778,7 +802,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/en/terms/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
@@ -786,7 +810,7 @@
   </url>
   <url>
     <loc>https://getsessionflow.app/es/terminos/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getsessionflow.app/termos/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://getsessionflow.app/en/terms/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://getsessionflow.app/es/terminos/"/>
