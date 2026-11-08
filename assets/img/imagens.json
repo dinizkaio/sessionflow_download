@@ -98,7 +98,7 @@
    ],
    "reserva": 1000,
    "largura": 1480,
-   "altura": 789
+   "altura": 794
   },
   "agenda_mes": {
    "larguras": [
@@ -119,6 +119,56 @@
    "reserva": 800,
    "largura": 1080,
    "altura": 1178
+  },
+  "pagina_agendamento": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1190
+  },
+  "agenda_online": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1067
+  },
+  "agendamentos": {
+   "larguras": [
+    640,
+    1000,
+    1460
+   ],
+   "reserva": 1000,
+   "largura": 1460,
+   "altura": 1028
+  },
+  "emails": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1087
+  },
+  "cartao_qr": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1127
   }
  },
  "en": {
@@ -220,7 +270,7 @@
    ],
    "reserva": 1000,
    "largura": 1480,
-   "altura": 751
+   "altura": 757
   },
   "agenda_mes": {
    "larguras": [
@@ -240,7 +290,57 @@
    ],
    "reserva": 800,
    "largura": 1080,
-   "altura": 1185
+   "altura": 1184
+  },
+  "pagina_agendamento": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1196
+  },
+  "agenda_online": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1067
+  },
+  "agendamentos": {
+   "larguras": [
+    640,
+    1000,
+    1460
+   ],
+   "reserva": 1000,
+   "largura": 1460,
+   "altura": 1028
+  },
+  "emails": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1086
+  },
+  "cartao_qr": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1127
   }
  },
  "es": {
@@ -332,7 +432,7 @@
    ],
    "reserva": 1100,
    "largura": 1600,
-   "altura": 1216
+   "altura": 1219
   },
   "panorama_cartoes": {
    "larguras": [
@@ -342,7 +442,7 @@
    ],
    "reserva": 1000,
    "largura": 1480,
-   "altura": 803
+   "altura": 818
   },
   "agenda_mes": {
    "larguras": [
@@ -363,6 +463,56 @@
    "reserva": 800,
    "largura": 1080,
    "altura": 1178
+  },
+  "pagina_agendamento": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1190
+  },
+  "agenda_online": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1067
+  },
+  "agendamentos": {
+   "larguras": [
+    640,
+    1000,
+    1460
+   ],
+   "reserva": 1000,
+   "largura": 1460,
+   "altura": 1028
+  },
+  "emails": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1087
+  },
+  "cartao_qr": {
+   "larguras": [
+    480,
+    800,
+    1080
+   ],
+   "reserva": 800,
+   "largura": 1080,
+   "altura": 1127
   }
  }
 }
