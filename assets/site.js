@@ -73,6 +73,19 @@ var aoMudarLargura = function (m) { if (m.matches) abrirMenu(false); };
 if (janelaLarga.addEventListener) janelaLarga.addEventListener('change', aoMudarLargura);
 else janelaLarga.addListener(aoMudarLargura);
 }
+var grupos = document.querySelectorAll('.e-tambem .et-grupo');
+if (grupos.length && window.matchMedia) {
+var celular = window.matchMedia('(max-width: 40rem)');
+var ajustarGrupos = function () {
+grupos.forEach(function (g) {
+g.open = !celular.matches;
+g.querySelector('summary').tabIndex = celular.matches ? 0 : -1;
+});
+};
+ajustarGrupos();
+if (celular.addEventListener) celular.addEventListener('change', ajustarGrupos);
+else if (celular.addListener) celular.addListener(ajustarGrupos);
+}
 var dados = document.getElementById('linguas-do-site');
 var aviso = document.querySelector('.aviso-lingua');
 if (!dados || !aviso) return;
