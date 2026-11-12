@@ -8,25 +8,38 @@
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="/favicon.ico?v=345b626e13" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/icone-180.png?v=e02676b752">
-  <link rel="stylesheet" href="/assets/site.css?v=535857bf9c">
+  <link rel="stylesheet" href="/assets/site.css?v=07a5dfdbe9">
   <script>
     (function () {
       var ua = navigator.userAgent || '';
       var ios = /iPad|iPhone|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
       if (ios) location.replace('https://apps.apple.com/app/id6761916040');
       else if (/Android/i.test(ua)) location.replace('https://play.google.com/store/apps/details?id=com.sessionflow.sessions');
+      var tem = ['pt', 'en', 'es'], ls = navigator.languages || [navigator.language || ''];
+      for (var i = 0; i < ls.length; i++) {
+        var l = String(ls[i]).slice(0, 2).toLowerCase();
+        if (tem.indexOf(l) >= 0) { document.documentElement.setAttribute('data-lingua', l); break; }
+      }
     })();
   </script>
 </head>
 <body>
   <main class="capa">
     <img class="icone" src="/assets/icone-180.png?v=e02676b752" alt="" width="96" height="96">
-    <h1>Session Flow</h1>
+    <h1 class="titulo">Session <em>Flow</em></h1>
     <p><span lang="pt-BR">Escolha a loja do seu celular:</span> · <span lang="en">Choose your app store:</span> · <span lang="es-419">Elige la tienda de tu celular:</span></p>
-    <div class="lojas">
-          <a class="loja loja-ios" href="https://apps.apple.com/app/id6761916040"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5v11m0 0l-4.2-4.2M12 14.5l4.2-4.2M5 16.5v1.8c0 1.2 1 2.2 2.2 2.2h9.6c1.2 0 2.2-1 2.2-2.2v-1.8"/></svg><span><small>iPhone · iPad</small><strong>App Store</strong></span></a>
-          <a class="loja loja-android" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3.5v11m0 0l-4.2-4.2M12 14.5l4.2-4.2M5 16.5v1.8c0 1.2 1 2.2 2.2 2.2h9.6c1.2 0 2.2-1 2.2-2.2v-1.8"/></svg><span><small>Android</small><strong>Google Play</strong></span></a>
-        </div>
+    <div class="selos-da-lingua" data-lingua="pt" lang="pt-BR"><div class="lojas selos">
+          <a class="selo loja-ios" href="https://apps.apple.com/app/id6761916040"><img src="/assets/lojas/app-store-pt-br.svg" alt="Baixar na App Store" width="120" height="40"></a>
+          <a class="selo loja-android" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions"><img src="/assets/lojas/google-play-pt-br.svg" alt="Disponível no Google Play" width="135" height="40"></a>
+        </div></div>
+    <div class="selos-da-lingua" data-lingua="en" lang="en"><div class="lojas selos">
+          <a class="selo loja-ios" href="https://apps.apple.com/app/id6761916040"><img src="/assets/lojas/app-store-en-us.svg" alt="Download on the App Store" width="120" height="40"></a>
+          <a class="selo loja-android" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions"><img src="/assets/lojas/google-play-en.svg" alt="Get it on Google Play" width="135" height="40"></a>
+        </div></div>
+    <div class="selos-da-lingua" data-lingua="es" lang="es-419"><div class="lojas selos">
+          <a class="selo loja-ios" href="https://apps.apple.com/app/id6761916040"><img src="/assets/lojas/app-store-es-mx.svg" alt="Descárgalo en el App Store" width="120" height="40"></a>
+          <a class="selo loja-android" href="https://play.google.com/store/apps/details?id=com.sessionflow.sessions"><img src="/assets/lojas/google-play-es-419.svg" alt="Descargar en Google Play" width="135" height="40"></a>
+        </div></div>
     <p style="margin-top:2rem"><a href="/">getsessionflow.app</a></p>
   </main>
 </body>
