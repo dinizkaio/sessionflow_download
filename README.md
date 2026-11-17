@@ -6,15 +6,17 @@ arquivo `CNAME`; o DNS fica no Namecheap).
 | Endereço | O que é |
 |---|---|
 | `/`, `/en/`, `/es/` | Página inicial em português, inglês e espanhol. |
+| `/agenda-online/`, `/en/online-booking/`, `/es/agenda-online/` | A agenda online do Premium Agenda: a página de agendamento, os pedidos, as regras da área da saúde e a privacidade (por enquanto com a imagem de compartilhamento padrão). |
 | `/panorama/`, `/nuvem/`, `/calendario/` (em inglês `/en/insights/`, `/en/cloud/`, `/en/calendar/`; em espanhol `/es/panorama/`, `/es/nube/`, `/es/calendario/`) | Os recursos novos do app: o Panorama, a Nuvem e o Calendário do celular, cada um com a sua imagem de compartilhamento (`assets/og-<recurso>-<língua>.jpg`). |
+| `/planos/`, `/en/plans/`, `/es/planes/` | Os quatro planos (Gratuito, Essencial, Premium e Premium Agenda), o teste grátis e a tabela "Comparar planos" do app, sem preço: os valores ficam no app. |
 | `/sobre/`, `/en/about/`, `/es/acerca/` | Sobre o app: o que é, o que não é, quem faz. |
 | `/para/<profissão>/`, `/en/for/<profissão>/`, `/es/para/<profissão>/` | Uma página por profissão (psicólogos, terapeutas, nutricionistas…). |
 | `/ajuda/`, `/en/help/`, `/es/ayuda/` | A Ajuda do app: um índice e uma página por seção. |
 | `/novidades/`, `/en/whats-new/`, `/es/novedades/` | As notas de cada versão do app. |
 | `/baixar/` | Leva à loja do aparelho (iPhone → App Store, Android → Google Play); no computador, mostra as duas. É o destino do QR da página inicial e o link para compartilhar. |
-| `/privacidade/`, `/termos/` | Política de Privacidade e Termos de Uso da Nuvem, em português — a versão oficial. |
-| `/en/privacy/`, `/en/terms/` | Tradução para o inglês. |
-| `/es/privacidad/`, `/es/terminos/` | Tradução para o espanhol. |
+| `/privacidade/`, `/termos/`, `/excluir-conta/` | Política de Privacidade, Termos de Uso da Nuvem e como excluir a conta, em português — a versão oficial. |
+| `/en/privacy/`, `/en/terms/`, `/en/delete-account/` | Tradução para o inglês. |
+| `/es/privacidad/`, `/es/terminos/`, `/es/eliminar-cuenta/` | Tradução para o espanhol. |
 | `404.html`, `sitemap.xml`, `robots.txt`, `llms.txt` | Página de endereço inexistente e arquivos para os buscadores e para as respostas de IA. |
 
 O app web não fica aqui: está em `app.getsessionflow.app`, no Firebase
